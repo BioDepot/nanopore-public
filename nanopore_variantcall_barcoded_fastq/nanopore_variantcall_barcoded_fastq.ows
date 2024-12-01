@@ -1,0 +1,265 @@
+<?xml version="1.0" ?><scheme description="" title="nanopore-variantcall-barcoded-fastq" version="2.0">
+	<nodes>
+		<node id="0" name="Start" position="(-850.0, 60.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWStart.OWStart" title="Start" version=""/>
+		<node id="1" name="downloadURL" position="(-298.0, 180.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWdownloadURL.OWdownloadURL" title="Download fast5 files" version=""/>
+		<node id="2" name="igv" position="(-157.0, 635.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWigv.OWigv" title="View alignments" version=""/>
+		<node id="3" name="S3_download" position="(-620.0, 178.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWS3_download.OWS3_download" title="Download genome" version=""/>
+		<node id="4" name="dorado" position="(-622.0, 341.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWdorado.OWdorado" title="Dorado basecaller" version=""/>
+		<node id="5" name="Utilities_downloadURL" position="(-463.0, 180.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWUtilities_downloadURL.OWUtilities_downloadURL" title="Download genome (GDrive link)" version=""/>
+		<node id="6" name="dorado" position="(-148.0, 179.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWdorado.OWdorado" title="Download dorado models" version=""/>
+		<node id="7" name="svim" position="(-623.0, 492.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWsvim.OWsvim" title="svim" version=""/>
+		<node id="8" name="cutesv" position="(-473.0, 494.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWcutesv.OWcutesv" title="cutesv" version=""/>
+		<node id="9" name="sniffles" position="(-323.0, 494.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWsniffles.OWsniffles" title="sniffles" version=""/>
+		<node id="10" name="dorado" position="(-430.0, 342.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWdorado.OWdorado" title="Dorado demultiplexing" version=""/>
+		<node id="11" name="gnumeric" position="(-474.0, 636.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWgnumeric.OWgnumeric" title="cuteSV vcf" version=""/>
+		<node id="12" name="Utilities_gnumeric" position="(-630.0, 634.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWUtilities_gnumeric.OWUtilities_gnumeric" title="svim vcf" version=""/>
+		<node id="13" name="Utilities_gnumeric" position="(-320.0, 631.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWUtilities_gnumeric.OWUtilities_gnumeric" title="sniffles vcf" version=""/>
+		<node id="14" name="clair3" position="(-1.0, 493.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWclair3.OWclair3" title="Clair3" version=""/>
+		<node id="15" name="PEPPER" position="(-162.0, 492.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWPEPPER.OWPEPPER" title="PEPPER" version=""/>
+		<node id="16" name="ClairS" position="(302.0, 498.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWClairS.OWClairS" title="ClairS" version=""/>
+		<node id="17" name="nanomonsv" position="(428.0, 497.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWnanomonsv.OWnanomonsv" title="nanomonsv" version=""/>
+		<node id="18" name="CNVkit" position="(554.0, 497.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWCNVkit.OWCNVkit" title="CNVkit" version=""/>
+		<node id="19" name="ClairS_TO" position="(143.0, 494.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWClairS_TO.OWClairS_TO" title="ClairS (tumor only)" version=""/>
+		<node id="20" name="minimap2_index" position="(50.0, 186.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWminimap2_index.OWminimap2_index" title="minimap2_index" version=""/>
+		<node id="21" name="minimap2_samtools" position="(203.0, 186.0)" project_name="nanopore-variantcall-barcoded-fastq" qualified_name="nanopore_variantcall_barcoded_fastq.OWminimap2_samtools.OWminimap2_samtools" title="minimap2_samtools" version=""/>
+	</nodes>
+	<links>
+		<link enabled="false" id="0" sink_channel="directory" sink_node_id="1" source_channel="data_dir" source_node_id="0"/>
+		<link enabled="false" id="1" sink_channel="downloadDir" sink_node_id="3" source_channel="genome_dir" source_node_id="0"/>
+		<link enabled="false" id="2" sink_channel="directory" sink_node_id="5" source_channel="genome_dir" source_node_id="0"/>
+		<link enabled="true" id="3" sink_channel="trigger" sink_node_id="4" source_channel="directory" source_node_id="5"/>
+		<link enabled="false" id="4" sink_channel="trigger2" sink_node_id="4" source_channel="directory" source_node_id="1"/>
+		<link enabled="true" id="5" sink_channel="trigger3" sink_node_id="4" source_channel="OutputDir" source_node_id="6"/>
+		<link enabled="true" id="6" sink_channel="trigger" sink_node_id="2" source_channel="OutputDir" source_node_id="4"/>
+		<link enabled="true" id="7" sink_channel="reference" sink_node_id="4" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="8" sink_channel="InputDir" sink_node_id="4" source_channel="fast5_dir" source_node_id="0"/>
+		<link enabled="true" id="9" sink_channel="modelDir" sink_node_id="6" source_channel="model_dir" source_node_id="0"/>
+		<link enabled="true" id="10" sink_channel="reference" sink_node_id="7" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="11" sink_channel="reference" sink_node_id="8" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="12" sink_channel="reference" sink_node_id="9" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="13" sink_channel="inputFile" sink_node_id="8" source_channel="outputfile" source_node_id="4"/>
+		<link enabled="true" id="14" sink_channel="inputFile" sink_node_id="9" source_channel="outputfile" source_node_id="4"/>
+		<link enabled="true" id="15" sink_channel="OutputDir" sink_node_id="7" source_channel="varcallout_dir" source_node_id="0"/>
+		<link enabled="true" id="16" sink_channel="workDir" sink_node_id="8" source_channel="varcallout_dir" source_node_id="0"/>
+		<link enabled="true" id="17" sink_channel="Trigger" sink_node_id="11" source_channel="File" source_node_id="8"/>
+		<link enabled="true" id="18" sink_channel="Trigger" sink_node_id="13" source_channel="File" source_node_id="9"/>
+		<link enabled="true" id="19" sink_channel="Trigger" sink_node_id="12" source_channel="OutputDir" source_node_id="7"/>
+		<link enabled="true" id="20" sink_channel="inputRef" sink_node_id="15" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="21" sink_channel="inputBam" sink_node_id="15" source_channel="outputfile" source_node_id="4"/>
+		<link enabled="true" id="22" sink_channel="outputDir" sink_node_id="15" source_channel="varcallout_dir" source_node_id="0"/>
+		<link enabled="true" id="23" sink_channel="reference" sink_node_id="14" source_channel="genome_file" source_node_id="0"/>
+		<link enabled="true" id="24" sink_channel="outputDir" sink_node_id="14" source_channel="varcallout_dir" source_node_id="0"/>
+		<link enabled="true" id="25" sink_channel="vcfOutput" sink_node_id="8" source_channel="cutesvvcf_out" source_node_id="0"/>
+		<link enabled="true" id="26" sink_channel="vcfOutput" sink_node_id="9" source_channel="snifflesvcf_out" source_node_id="0"/>
+		<link enabled="true" id="27" sink_channel="indexfile" sink_node_id="21" source_channel="indexfile" source_node_id="20"/>
+		<link enabled="true" id="28" sink_channel="InputFile" sink_node_id="7" source_channel="bamfile_out" source_node_id="0"/>
+		<link enabled="true" id="29" sink_channel="outputfile" sink_node_id="4" source_channel="bamfile_out" source_node_id="0"/>
+	</links>
+	<annotations>
+		<text font-family="Helvetica" font-size="16" id="0" rect="(-903.0, 160.0, 150.0, 31.0)" type="text/plain">Download</text>
+		<text font-family="Helvetica" font-size="16" id="1" rect="(-904.0, 313.0, 166.0, 43.0)" type="text/plain">Align with MiniMap2 (fastq to bam)</text>
+		<text font-family="Helvetica" font-size="16" id="2" rect="(-900.0, 651.0, 150.0, 31.0)" type="text/plain">Visualize</text>
+		<text font-family="Helvetica" font-size="16" id="3" rect="(-900.0, 472.0, 153.0, 37.0)" type="text/plain">Variant Call (multiple callers)</text>
+		<text font-family="Helvetica" font-size="16" id="4" rect="(-227.0, 277.0, 639.0, 145.0)" type="text/plain">Clair3 models for ONT Nanopore here: 
+https://github.com/nanoporetech/rerio?tab=readme-ov-file#clair3-models
+ClairS platform options: {ont_r10_dorado_sup_4khz, ont_r10_dorado_sup_5khz, ont_r10_dorado_hac_5khz, ont_r10_dorado_hac_4khz, ont_r10_guppy, ont_r9_guppy, ilmn, hifi_sequel2, hifi_revio}</text>
+		<text font-family="Helvetica" font-size="16" id="5" rect="(19.0, 113.0, 235.0, 34.0)" type="text/plain">(Convert fastq to bam)</text>
+	</annotations>
+	<thumbnail/>
+	<node_properties>
+		<properties format="literal" node_id="0">{'bam_dir': '/data/nanopore-test/bam/20200210_FLT3DNA_MO', 'bamfile_out': ['/data/nanopore-test/bam/20200210_FLT3DNA_MO/varcallbam.bam'], 'controlAreaVisible': True, 'cutesvvcf_dir': ['/data/nanopore-test/varcall-out/cutesv'], 'cutesvvcf_out': ['/data/nanopore-test/varcall-out/cutesv/out_cutesv.vcf'], 'data_dir': '/data/nanopore-test/data', 'exportGraphics': False, 'fast5_dir': ['/data/nanopore-test/data/20200210_FLT3DNA_MO/fast5/barcode22'], 'genome_dir': '/data/nanopore-test/genome', 'genome_file': '/data/nanopore-test/genome/GRCh38.primary_assembly.genome.fa', 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['fast5_dir', 'bamfile_out', 'varcallout_dir', 'cutesvvcf_dir', 'cutesvvcf_out', 'snifflesvcf_out'], 'nWorkers': 1}, 'model_dir': '/data/nanopore-models', 'nWorkers': 1, 'optionsChecked': {'gdc_credentials': False, 'gdc_token': False, 'clean_files': False, 'fastq_files': False, 'fastq1_files': False, 'fastq2_files': False, 'fastqo1_files': False, 'fastqo2_files': False, 'fastqs_files': False, 'fastqc_files': False, 'paired_end': False, 'realigned_files': False, 'recalibrate_files': False, 'realigned_indels_files': False, 'pindel_filter_files': False, 'genome_dict_file': False, 'biobambam_files': False, 'mutect2_normal_files': False, 'mutect2_tumor_files': False, 'mutect2_variants_files': False, 'variant_annotation_files': False, 'maf_files': False, 'mark_dupes_outputs': False, 'mark_dupes_metrics': False, 'coclean_intervals': False, 'somatic_sniper_files': False, 'prepend_date': False, 'varscan_pileup_files': False, 'varscan_snp_files': False, 'varscan_indel_files': False, 'muse_call_files': False, 'muse_sump_input_files': False, 'muse_sump_output_files': False, 'pindel_config_files': False, 'pindel_variants_files': False, 'pindel_variants_sorted_files': False, 'pindel_variants_filtered_files': False, 'pindel_prefix_files': False, 'cpu_url': False, 'gpu_url': False, 'models_dir': False}, 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x03=\x00\x00\x00C\x00\x00\x07\xa5\x00\x00\x031\x00\x00\x03=\x00\x00\x00C\x00\x00\x07\xa5\x00\x00\x031\x00\x00\x00\x00\x00\x00\x00\x00\n\x00', 'snifflesvcf_out': ['/data/nanopore-test/varcall-out/out_sniffles.vcf'], 'triggerReady': {}, 'useGpu': False, 'useScheduler': False, 'varcallout_dir': ['/data/nanopore-test/varcall-out'], '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAMAAABVUkxxAV1xAlhVAAAAaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8x
+Mk1yaXBjVUpDVXp5Ym84QWZIQTM1endFOE9jUkdsZHkvdmlldz91c3A9c2hhcmVfbGlua3EDYVgP
+AAAAY29uY2F0ZW5hdGVGaWxlcQRYAAAAAHEFWBIAAABjb250cm9sQXJlYVZpc2libGVxBohYCgAA
+AGRlY29tcHJlc3NxB4hYCQAAAGRpcmVjdG9yeXEIaAVYDgAAAGV4cG9ydEdyYXBoaWNzcQmJWBUA
+AABpbnB1dENvbm5lY3Rpb25zU3RvcmVxCn1xC1gJAAAAZGlyZWN0b3J5cQxdcQ1LAWFzWAcAAABp
+dGVyYXRlcQ6JWA8AAABpdGVyYXRlU2V0dGluZ3NxD31xEChYDQAAAGl0ZXJhYmxlQXR0cnNxEV1x
+ElgDAAAAVVJMcRNhWAgAAABuV29ya2Vyc3EUSwJYBAAAAGRhdGFxFWNjb2xsZWN0aW9ucwpPcmRl
+cmVkRGljdApxFilScRcoWAkAAABkaXJlY3RvcnlxGH1xGShYCQAAAGdyb3VwU2l6ZXEaWAEAAAAx
+cRtYBwAAAHRocmVhZHNxHGgbWAMAAAByYW1xHVgBAAAAMHEedVgDAAAAVVJMcR99cSAoaBpoG2gc
+aBtoHWgedXVYDQAAAGl0ZXJhdGVkQXR0cnNxIV1xIihoGGgfZXVYCAAAAG5Xb3JrZXJzcSNLAlgJ
+AAAAbm9DbG9iYmVycSSJWA4AAABvcHRpb25zQ2hlY2tlZHElfXEmKFgKAAAAZGVjb21wcmVzc3En
+iVgPAAAAY29uY2F0ZW5hdGVGaWxlcSiJWAkAAABub0Nsb2JiZXJxKYl1WAYAAAByZXBlYXRxKolY
+BwAAAHJ1bk1vZGVxK0sCWAsAAABydW5UcmlnZ2Vyc3EsXXEtWAkAAABkaXJlY3RvcnlxLmFYEwAA
+AHNhdmVkV2lkZ2V0R2VvbWV0cnlxL0MyAdnQywACAAAAAAOyAAABmgAABusAAAMLAAADsgAAAZoA
+AAbrAAADCwAAAAAAAAAACgBxMFgMAAAAdHJpZ2dlclJlYWR5cTF9cTJYCQAAAGRpcmVjdG9yeXEz
+iXNYBgAAAHVzZUdwdXE0iVgMAAAAdXNlU2NoZWR1bGVycTWJWAsAAABfX3ZlcnNpb25fX3E2SwF1
+Lg==
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWBQAAABhdXRvRGV0ZXJtaW5lUmVnaW9uc3EBiFgFAAAAYmF0Y2hxAlgAAAAAcQNYEgAA
+AGNvbnRyb2xBcmVhVmlzaWJsZXEEiFgOAAAAZXhwb3J0R3JhcGhpY3NxBYhYBgAAAGdlbm9tZXEG
+WAQAAABoZzM4cQdYFQAAAGlucHV0Q29ubmVjdGlvbnNTdG9yZXEIfXEJWAcAAAB0cmlnZ2VycQpd
+cQtLBWFzWAkAAABpbnB1dEZpbGVxDH1xDShYBAAAAHJvb3RxDlgrAAAAL2RhdGEvbmFub3BvcmUt
+dGVzdC9iYW0vMjAyMDAyMTBfRkxUM0ROQV9NT3EPWAcAAABwYXR0ZXJucRBYDwAAACp2YXJjYWxs
+YmFtLmJhbXERWAgAAABmaW5kRmlsZXESiFgHAAAAZmluZERpcnETiVgFAAAAdmFsdWVxFF1xFVg6
+AAAAL2RhdGEvbmFub3BvcmUtdGVzdC9iYW0vMjAyMDAyMTBfRkxUM0ROQV9NTy92YXJjYWxsYmFt
+LmJhbXEWYXVYBwAAAGl0ZXJhdGVxF4hYDwAAAGl0ZXJhdGVTZXR0aW5nc3EYfXEZKFgNAAAAaXRl
+cmFibGVBdHRyc3EaXXEbWAkAAABpbnB1dEZpbGVxHGFYBAAAAGRhdGFxHWNjb2xsZWN0aW9ucwpP
+cmRlcmVkRGljdApxHilScR9YCQAAAGlucHV0RmlsZXEgfXEhKFgJAAAAZ3JvdXBTaXplcSJYAQAA
+ADFxI1gHAAAAdGhyZWFkc3EkaCNYAwAAAHJhbXElWAEAAAAwcSZ1c1gNAAAAaXRlcmF0ZWRBdHRy
+c3EnXXEoaCBhWAgAAABuV29ya2Vyc3EpSwJ1WAgAAABuV29ya2Vyc3EqSwJYDgAAAG9wdGlvbnND
+aGVja2VkcSt9cSwoWAYAAABnZW5vbWVxLYhYBQAAAGJhdGNocS6JWBQAAABhdXRvRGV0ZXJtaW5l
+UmVnaW9uc3EviXVYBgAAAHJlcGVhdHEwiVgHAAAAcnVuTW9kZXExSwJYCwAAAHJ1blRyaWdnZXJz
+cTJdcTNYBwAAAHRyaWdnZXJxNGFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxNUMyAdnQywACAAAA
+AAS2AAABVwAAB+8AAAKqAAAEtgAAAVcAAAfvAAACqgAAAAAAAAAACZlxNlgMAAAAdHJpZ2dlclJl
+YWR5cTd9cTgoWAcAAAB0cmlnZ2VycTmJWAkAAABpbnB1dEZpbGVxOol1WAYAAAB1c2VHcHVxO4lY
+DAAAAHVzZVNjaGVkdWxlcnE8iVgLAAAAX192ZXJzaW9uX19xPUsBdS4=
+</properties>
+		<properties format="literal" node_id="3">{'awsdir': '/data/.aws', 'bucket': 'nanopore-fusion-uw', 'controlAreaVisible': True, 'dirs': ['genome/hg38.mmi', 'genome/hg19.fa', 'genome/hg19.idx'], 'downloadDir': '', 'exportGraphics': False, 'inputConnectionsStore': {'downloadDir': [1]}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['dirs'], 'nWorkers': 1}, 'key': '', 'nWorkers': 1, 'nthreads': 0, 'optionsChecked': {'nthreads': False, 'key': False, 'secret': False, 'region': False}, 'region': 'us-east-2', 'repeat': False, 'runMode': 2, 'runTriggers': ['downloadDir'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\xa2\x00\x00\x01@\x00\x00\x05\xdb\x00\x00\x03\x07\x00\x00\x02\xa2\x00\x00\x01X\x00\x00\x05\xdb\x00\x00\x03\x04\x00\x00\x00\x00\x00\x00\x00\x00\t\x99', 'secret': '', 'triggerReady': {'downloadDir': False}, 'useGpu': False, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWAgAAABJbnB1dERpcnEBTlgJAAAASW5wdXRmaWxlcQJYAAAAAHEDWAkAAABPdXRwdXRE
+aXJxBGgDWAkAAABjaHVua3NpemVxBVgEAAAAMTAwMHEGWAcAAABjb21tYW5kcQdYFAAAACJkb3Jh
+ZG8gYmFzZWNhbGxlciAicQhYEgAAAGNvbnRyb2xBcmVhVmlzaWJsZXEJiFgHAAAAY3RnTmFtZXEK
+aANYCgAAAGRlbXV4UmVhZHNxC2gDWAYAAABkZXZpY2VxDGgDWAkAAABlbWl0ZmFzdHFxDYlYBwAA
+AGVtaXRzYW1xDolYDgAAAGV4cG9ydEdyYXBoaWNzcQ+JWBUAAABpbnB1dENvbm5lY3Rpb25zU3Rv
+cmVxEH1xEShYBwAAAHRyaWdnZXJxEl1xE0sEYVgIAAAAdHJpZ2dlcjJxFF1xFUsCYVgIAAAAdHJp
+Z2dlcjNxFl1xF0sGYVgJAAAAcmVmZXJlbmNlcRhdcRlLAWFYCAAAAElucHV0RGlycRpdcRtLAWFY
+CgAAAG91dHB1dGZpbGVxHF1xHUsBYXVYBwAAAGl0ZXJhdGVxHohYDwAAAGl0ZXJhdGVTZXR0aW5n
+c3EffXEgKFgNAAAAaXRlcmFibGVBdHRyc3EhXXEiKFgIAAAASW5wdXREaXJxI1gKAAAAb3V0cHV0
+ZmlsZXEkZVgIAAAAbldvcmtlcnNxJUsBWAQAAABkYXRhcSZjY29sbGVjdGlvbnMKT3JkZXJlZERp
+Y3QKcScpUnEoKFgIAAAASW5wdXREaXJxKX1xKihYCQAAAGdyb3VwU2l6ZXErWAEAAAAxcSxYBwAA
+AHRocmVhZHNxLWgsWAMAAAByYW1xLlgBAAAAMHEvdVgKAAAAb3V0cHV0ZmlsZXEwfXExKGgraCxo
+LWgsaC5oL3V1WA0AAABpdGVyYXRlZEF0dHJzcTJdcTMoaCloMGV1WAcAAABraXRuYW1lcTRoA1gI
+AAAAbW9kZWxEaXJxNWgDWAkAAABtb2RlbEZpbGVxNlgsAAAAL2RhdGEvbmFub3BvcmUtbW9kZWxz
+L2RuYV9yOS40LjFfZThfaGFjQHYzLjNxN1gLAAAAbW9kZWxzdHJpbmdxOFgEAAAAZmFzdHE5WAgA
+AABuV29ya2Vyc3E6SwFYCAAAAG5hbWVTb3J0cTuJWAYAAABub1RyaW1xPIlYCgAAAG5vY2xhc3Np
+ZnlxPYlYDgAAAG9wdGlvbnNDaGVja2VkcT59cT8oWAoAAABjb25maWdmaWxlcUCJWAYAAABkZXZp
+Y2VxQYlYCAAAAGZsb3djZWxscUKJWAcAAABraXRuYW1lcUOJWA0AAABjb21wcmVzc2Zhc3RxcUSJ
+WA8AAABjaHVua3NQZXJSdW5uZXJxRYlYCgAAAG51bUNhbGxlcnNxRolYEwAAAGdwdVJ1bm5lcnNQ
+ZXJEZXZpY2VxR4lYCAAAAG5hbWVTb3J0cUiJWAgAAABJbnB1dERpcnFJiFgJAAAAT3V0cHV0RGly
+cUqJWAkAAABJbnB1dGZpbGVxS4lYCgAAAG91dHB1dGZpbGVxTIhYCQAAAG1vZGVsRmlsZXFNiFgJ
+AAAAcmVmZXJlbmNlcU6IWAoAAAByZXN1bWVmcm9tcU+JWAQAAAB0cmltcVCJWAoAAABub2NsYXNz
+aWZ5cVGJWAwAAABzb3J0YW5kaW5kZXhxUolYCwAAAG1vZGVsc3RyaW5ncVOJWAkAAABlbWl0ZmFz
+dHFxVIlYBwAAAGVtaXRzYW1xVYlYCQAAAGNodW5rc2l6ZXFWiVgIAAAAbW9kZWxEaXJxV4lYCgAA
+AGRlbXV4UmVhZHNxWIlYBgAAAG5vVHJpbXFZiVgHAAAAc29ydEJhbXFaiVgHAAAAY3RnTmFtZXFb
+iXVoHE5YCQAAAHJlZmVyZW5jZXFcaANYBgAAAHJlcGVhdHFdiVgKAAAAcmVzdW1lZnJvbXFeaANY
+BwAAAHJ1bk1vZGVxX0sAWAsAAABydW5UcmlnZ2Vyc3FgXXFhKFgHAAAAdHJpZ2dlcnFiWAgAAAB0
+cmlnZ2VyM3FjWAkAAAByZWZlcmVuY2VxZFgIAAAASW5wdXREaXJxZWVYEwAAAHNhdmVkV2lkZ2V0
+R2VvbWV0cnlxZkMyAdnQywACAAAAAARsAAAArwAAB6UAAALWAAAEbAAAAMcAAAelAAAC0wAAAAAA
+AAAACgBxZ1gHAAAAc29ydEJhbXFoTlgMAAAAc29ydGFuZGluZGV4cWmIWAwAAAB0cmlnZ2VyUmVh
+ZHlxan1xayhYBwAAAHRyaWdnZXJxbIlYCAAAAHRyaWdnZXIycW2JWAgAAAB0cmlnZ2VyM3FuiVgJ
+AAAAcmVmZXJlbmNlcW+JWAgAAABJbnB1dERpcnFwiXVYBAAAAHRyaW1xcWgDWAYAAAB1c2VHcHVx
+cohYDAAAAHVzZVNjaGVkdWxlcnFziVgLAAAAX192ZXJzaW9uX19xdEsBdS4=
+</properties>
+		<properties format="literal" node_id="5">{'URL': ['https://drive.google.com/file/d/1Di7IWV0OYrR24KQzOszF9rymGDJcySRX/view?usp=drive_link', 'https://drive.google.com/file/d/1NKP9zlTHNIzora4APwyCs00NEyTGSkev/view?usp=drive_link', 'https://drive.google.com/file/d/120aMMscDqgnKMHLNNw-xo-1SkDNU0pnQ/view?usp=drive_link', 'https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/GRCh38.primary_assembly.genome.fa.gz', 'https://raw.githubusercontent.com/fritzsedlazeck/Sniffles/master/annotations/human_GRCh38_no_alt_analysis_set.trf.bed'], 'concatenateFile': '', 'controlAreaVisible': True, 'decompress': True, 'directory': '', 'exportGraphics': False, 'inputConnectionsStore': {'directory': [1]}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['URL'], 'nWorkers': 1}, 'nWorkers': 1, 'optionsChecked': {'decompress': False, 'concatenateFile': False}, 'repeat': False, 'runMode': 2, 'runTriggers': ['directory'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x0b\x00\x00\x01)\x00\x00\x05\xf4\x00\x00\x02\xd6\x00\x00\x02\x0b\x00\x00\x01)\x00\x00\x05\xf4\x00\x00\x02\xd6\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00', 'triggerReady': {'directory': False}, 'useGpu': False, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="6">{'InputDir': [], 'Inputfile': '', 'OutputDir': '', 'chunksize': '', 'command': '&quot;dorado download &quot;', 'controlAreaVisible': True, 'ctgName': '', 'demuxReads': '', 'device': 'cuda:all', 'emitfastq': False, 'emitsam': False, 'exportGraphics': False, 'inputConnectionsStore': {'modelDir': [1]}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['InputDir', 'outputfile'], 'nWorkers': 1}, 'kitname': '', 'modelDir': '', 'modelFile': '', 'modelstring': '', 'nWorkers': 1, 'nameSort': False, 'noTrim': False, 'noclassify': False, 'optionsChecked': {'InputDir': False, 'OutputDir': False, 'modelFile': False, 'reference': False, 'device': False, 'nameSort': False, 'Inputfile': False, 'outputfile': False, 'kitname': False, 'resumefrom': False, 'trim': False, 'noclassify': False, 'sortandindex': False, 'modelstring': False, 'emitfastq': False, 'emitsam': False, 'chunksize': False, 'modelDir': True, 'demuxReads': False, 'noTrim': False, 'sortBam': False, 'ctgName': False}, 'outputfile': [], 'reference': '', 'repeat': False, 'resumefrom': '', 'runMode': 2, 'runTriggers': ['modelDir'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x04\xd3\x00\x00\x01E\x00\x00\x08\x0c\x00\x00\x03Q\x00\x00\x04\xd3\x00\x00\x01E\x00\x00\x08\x0c\x00\x00\x03Q\x00\x00\x00\x00\x00\x00\x00\x00\t\x99', 'sortBam': None, 'sortandindex': False, 'triggerReady': {'modelDir': False}, 'trim': '', 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="7">gAN9cQAoWAkAAABJbnB1dEZpbGVxAU5YCQAAAE91dHB1dERpcnECTlgSAAAAY29udHJvbEFyZWFW
+aXNpYmxlcQOIWA4AAABleHBvcnRHcmFwaGljc3EEiVgVAAAAaW5wdXRDb25uZWN0aW9uc1N0b3Jl
+cQV9cQYoWAkAAAByZWZlcmVuY2VxB11xCEsBYVgJAAAAT3V0cHV0RGlycQldcQpLAWFYCQAAAElu
+cHV0RmlsZXELXXEMSwFhdVgHAAAAaXRlcmF0ZXENiFgPAAAAaXRlcmF0ZVNldHRpbmdzcQ59cQ8o
+WA0AAABpdGVyYWJsZUF0dHJzcRBdcREoWAkAAABJbnB1dEZpbGVxElgJAAAAT3V0cHV0RGlycRNl
+WAgAAABuV29ya2Vyc3EUSwFYBAAAAGRhdGFxFWNjb2xsZWN0aW9ucwpPcmRlcmVkRGljdApxFilS
+cRcoWAkAAABJbnB1dEZpbGVxGH1xGShYCQAAAGdyb3VwU2l6ZXEaWAEAAAAxcRtYBwAAAHRocmVh
+ZHNxHGgbWAMAAAByYW1xHVgBAAAAMHEedVgJAAAAT3V0cHV0RGlycR99cSAoaBpoG2gcaBtoHWge
+dXVYDQAAAGl0ZXJhdGVkQXR0cnNxIV1xIihoGGgfZXVYCQAAAG1heFN2U2l6ZXEjSwBYBwAAAG1p
+bk1hcHFxJEsAWAkAAABtaW5TdlNpemVxJUsAWAgAAABuV29ya2Vyc3EmSwFYDgAAAG9wdGlvbnND
+aGVja2VkcSd9cSgoWAUAAAB0eXBlc3EpiVgHAAAAbWluTWFwcXEqiVgJAAAAbWluU3ZTaXplcSuJ
+WAkAAABtYXhTdlNpemVxLIl1WAkAAAByZWZlcmVuY2VxLVgAAAAAcS5YBgAAAHJlcGVhdHEviVgH
+AAAAcnVuTW9kZXEwSwJYCwAAAHJ1blRyaWdnZXJzcTFdcTIoWAkAAAByZWZlcmVuY2VxM1gJAAAA
+T3V0cHV0RGlycTRlWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cTVDMgHZ0MsAAgAAAAAAAAAAAAAA
+AAn/AAAFBwAAAAAAAAAYAAAH/wAAA/wAAAAAAgAAAAoAcTZYDAAAAHRyaWdnZXJSZWFkeXE3fXE4
+KFgJAAAASW5wdXRGaWxlcTmJWAkAAAByZWZlcmVuY2VxOolYCQAAAE91dHB1dERpcnE7iXVYBQAA
+AHR5cGVzcTxYDgAAAElOUyxEVVA6VEFOREVNcT1YBgAAAHVzZUdwdXE+iFgMAAAAdXNlU2NoZWR1
+bGVycT+JWAsAAABfX3ZlcnNpb25fX3FASwF1Lg==
+</properties>
+		<properties format="pickle" node_id="8">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDgAAAGV4cG9ydEdyYXBoaWNzcQKJWBUA
+AABpbnB1dENvbm5lY3Rpb25zU3RvcmVxA31xBChYCQAAAHJlZmVyZW5jZXEFXXEGSwFhWAkAAABp
+bnB1dEZpbGVxB11xCEsFYVgHAAAAd29ya0RpcnEJXXEKSwFhWAkAAAB2Y2ZPdXRwdXRxC11xDEsB
+YXVYCQAAAGlucHV0RmlsZXENTlgHAAAAaXRlcmF0ZXEOiFgPAAAAaXRlcmF0ZVNldHRpbmdzcQ99
+cRAoWA0AAABpdGVyYWJsZUF0dHJzcRFdcRIoWAkAAABpbnB1dEZpbGVxE1gJAAAAdmNmT3V0cHV0
+cRRYBwAAAHdvcmtEaXJxFWVYCAAAAG5Xb3JrZXJzcRZLAVgEAAAAZGF0YXEXY2NvbGxlY3Rpb25z
+Ck9yZGVyZWREaWN0CnEYKVJxGShYCQAAAGlucHV0RmlsZXEafXEbKFgJAAAAZ3JvdXBTaXplcRxY
+AQAAADFxHVgHAAAAdGhyZWFkc3EeaB1YAwAAAHJhbXEfWAEAAAAwcSB1WAkAAAB2Y2ZPdXRwdXRx
+IX1xIihoHGgdaB5oHWgfaCB1WAcAAAB3b3JrRGlycSN9cSQoaBxoHWgeaB1oH2ggdXVYDQAAAGl0
+ZXJhdGVkQXR0cnNxJV1xJihoGmghaCNldVgIAAAAblRocmVhZHNxJ0sEWAgAAABuV29ya2Vyc3Eo
+SwFYDgAAAG9wdGlvbnNDaGVja2VkcSl9cSpYCAAAAG5UaHJlYWRzcSuIc1gJAAAAcmVmZXJlbmNl
+cSxYAAAAAHEtWAYAAAByZXBlYXRxLolYBwAAAHJ1bk1vZGVxL0sCWAsAAABydW5UcmlnZ2Vyc3Ew
+XXExKFgJAAAAaW5wdXRGaWxlcTJYCQAAAHJlZmVyZW5jZXEzWAcAAAB3b3JrRGlycTRlWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cTVDMgHZ0MsAAgAAAAADfgAAAWQAAAa3AAACtwAAA34AAAFkAAAG
+twAAArcAAAAAAAAAAAoAcTZYDAAAAHRyaWdnZXJSZWFkeXE3fXE4KFgJAAAAaW5wdXRGaWxlcTmJ
+WAkAAAByZWZlcmVuY2VxOolYBwAAAHdvcmtEaXJxO4l1WAYAAAB1c2VHcHVxPIhYDAAAAHVzZVNj
+aGVkdWxlcnE9iVgJAAAAdmNmT3V0cHV0cT5OWAcAAAB3b3JrRGlycT9OWAsAAABfX3ZlcnNpb25f
+X3FASwF1Lg==
+</properties>
+		<properties format="pickle" node_id="9">gAN9cQAoWA4AAABhbGxvd092ZXJ3cml0ZXEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWA4A
+AABleHBvcnRHcmFwaGljc3EDiVgVAAAAaW5wdXRDb25uZWN0aW9uc1N0b3JlcQR9cQUoWAkAAABy
+ZWZlcmVuY2VxBl1xB0sBYVgJAAAAaW5wdXRGaWxlcQhdcQlLBWFYCQAAAHZjZk91dHB1dHEKXXEL
+SwFhdVgJAAAAaW5wdXRGaWxlcQxOWAcAAABpdGVyYXRlcQ2IWA8AAABpdGVyYXRlU2V0dGluZ3Nx
+Dn1xDyhYDQAAAGl0ZXJhYmxlQXR0cnNxEF1xEShYCQAAAGlucHV0RmlsZXESWAkAAAB2Y2ZPdXRw
+dXRxE2VYCAAAAG5Xb3JrZXJzcRRLAVgEAAAAZGF0YXEVY2NvbGxlY3Rpb25zCk9yZGVyZWREaWN0
+CnEWKVJxFyhYCQAAAGlucHV0RmlsZXEYfXEZKFgJAAAAZ3JvdXBTaXplcRpYAQAAADFxG1gHAAAA
+dGhyZWFkc3EcaBtYAwAAAHJhbXEdWAEAAAAwcR51WAkAAAB2Y2ZPdXRwdXRxH31xIChoGmgbaBxo
+G2gdaB51dVgNAAAAaXRlcmF0ZWRBdHRyc3EhXXEiKGgYaB9ldVgIAAAAblRocmVhZHNxI0sEWAgA
+AABuV29ya2Vyc3EkSwFYDgAAAG9wdGlvbnNDaGVja2VkcSV9cSYoWAgAAABuVGhyZWFkc3EniFgO
+AAAAYWxsb3dPdmVyd3JpdGVxKIlYFAAAAHRhbmRlbVJlcGVhdHNCZWRmaWxlcSmIdVgJAAAAcmVm
+ZXJlbmNlcSpYAAAAAHErWAYAAAByZXBlYXRxLIlYBwAAAHJ1bk1vZGVxLUsCWAsAAABydW5Ucmln
+Z2Vyc3EuXXEvKFgJAAAAaW5wdXRGaWxlcTBYCQAAAHJlZmVyZW5jZXExZVgTAAAAc2F2ZWRXaWRn
+ZXRHZW9tZXRyeXEyQzIB2dDLAAIAAAAAAfsAAAEAAAAGBAAAAv4AAAH7AAABAAAABgQAAAL+AAAA
+AAAAAAAKAHEzWBQAAAB0YW5kZW1SZXBlYXRzQmVkZmlsZXE0WEMAAAAvZGF0YS9uYW5vcG9yZS10
+ZXN0L2dlbm9tZS9odW1hbl9HUkNoMzhfbm9fYWx0X2FuYWx5c2lzX3NldC50cmYuYmVkcTVYDAAA
+AHRyaWdnZXJSZWFkeXE2fXE3KFgJAAAAaW5wdXRGaWxlcTiJWAkAAAByZWZlcmVuY2VxOYl1WAYA
+AAB1c2VHcHVxOohYDAAAAHVzZVNjaGVkdWxlcnE7iVgJAAAAdmNmT3V0cHV0cTxOWAsAAABfX3Zl
+cnNpb25fX3E9SwF1Lg==
+</properties>
+		<properties format="literal" node_id="10">{'InputDir': [], 'Inputfile': '', 'OutputDir': '/data/nanopore-test/bam', 'chunksize': '', 'command': '&quot;dorado demux &quot;', 'controlAreaVisible': True, 'ctgName': '', 'demuxReads': '/data/bam_file_to_demux.bam', 'device': 'cuda:all', 'emitfastq': False, 'emitsam': False, 'exportGraphics': False, 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['InputDir', 'outputfile'], 'nWorkers': 1}, 'kitname': 'SQK-NBD114-24', 'modelDir': '', 'modelFile': '', 'modelstring': '--no-trim --sort-bam', 'nWorkers': 1, 'nameSort': False, 'noTrim': True, 'noclassify': False, 'optionsChecked': {'InputDir': False, 'OutputDir': True, 'modelFile': False, 'reference': False, 'device': False, 'nameSort': False, 'Inputfile': False, 'outputfile': False, 'kitname': True, 'resumefrom': False, 'trim': False, 'noclassify': False, 'sortandindex': False, 'modelstring': False, 'emitfastq': False, 'emitsam': False, 'chunksize': False, 'modelDir': False, 'demuxReads': True, 'noTrim': False, 'sortBam': False, 'ctgName': False}, 'outputfile': [], 'reference': '', 'repeat': False, 'resumefrom': '', 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x03\r\x00\x00\x00\xd4\x00\x00\x06F\x00\x00\x02\xe0\x00\x00\x03\r\x00\x00\x00\xd4\x00\x00\x06F\x00\x00\x02\xe0\x00\x00\x00\x00\x00\x00\x00\x00\n\x00', 'sortBam': None, 'sortandindex': False, 'triggerReady': {}, 'trim': '', 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="11">{'controlAreaVisible': True, 'exportGraphics': True, 'inputConnectionsStore': {'Trigger': [9]}, 'inputFile': '/data/nanopore-test/varcall-out/out_cutesv.vcf', 'iterate': False, 'iterateSettings': {'iterableAttrs': [], 'nWorkers': 1}, 'nWorkers': 1, 'optionsChecked': {'inputFile': True}, 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x04^\x00\x00\x02\x0c\x00\x00\x07\x97\x00\x00\x03\x0e\x00\x00\x04^\x00\x00\x02\x0c\x00\x00\x07\x97\x00\x00\x03\x0e\x00\x00\x00\x00\x00\x00\x00\x00\t\x99', 'triggerReady': {}, 'useGpu': False, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="12">{'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {'Trigger': [8]}, 'inputFile': '/data/nanopore-test/varcall-out/variants.vcf', 'iterate': False, 'iterateSettings': {'iterableAttrs': []}, 'nWorkers': 1, 'optionsChecked': {'inputFile': True}, 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x04^\x00\x00\x02\x0c\x00\x00\x07\x97\x00\x00\x03\x0e\x00\x00\x04^\x00\x00\x02\x0c\x00\x00\x07\x97\x00\x00\x03\x0e\x00\x00\x00\x00\x00\x00\x00\x00\t\x99', 'triggerReady': {}, 'useGpu': False, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="13">{'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {'Trigger': [10]}, 'inputFile': {'root': '', 'pattern': '', 'findFile': True, 'findDir': False, 'value': None}, 'iterate': False, 'iterateSettings': {'iterableAttrs': []}, 'nWorkers': 1, 'optionsChecked': {'inputFile': False}, 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x04^\x00\x00\x02\x0c\x00\x00\x07\x97\x00\x00\x03)\x00\x00\x04^\x00\x00\x02$\x00\x00\x07\x97\x00\x00\x03&amp;\x00\x00\x00\x00\x00\x00\x00\x00\t\x99', 'triggerReady': {}, 'useGpu': False, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="14">gAN9cQAoWAcAAABiYW1GaWxlcQFdcQJYBwAAAGJlZEZpbGVxA1gAAAAAcQRYEgAAAGNvbnRyb2xB
+cmVhVmlzaWJsZXEFiFgHAAAAY3RnTmFtZXEGaARYDgAAAGV4cG9ydEdyYXBoaWNzcQeJWAoAAABp
+bmRlbE1pbkFmcQhoBFgVAAAAaW5wdXRDb25uZWN0aW9uc1N0b3JlcQl9cQooWAkAAAByZWZlcmVu
+Y2VxC11xDEsBYVgJAAAAb3V0cHV0RGlycQ1dcQ5LAWF1WAcAAABpdGVyYXRlcQ+IWA8AAABpdGVy
+YXRlU2V0dGluZ3NxEH1xEShYDQAAAGl0ZXJhYmxlQXR0cnNxEl1xEyhYBwAAAGJhbUZpbGVxFFgJ
+AAAAb3V0cHV0RGlycRVlWAgAAABuV29ya2Vyc3EWSwFYBAAAAGRhdGFxF2Njb2xsZWN0aW9ucwpP
+cmRlcmVkRGljdApxGClScRkoWAcAAABiYW1GaWxlcRp9cRsoWAkAAABncm91cFNpemVxHFgBAAAA
+MXEdWAcAAAB0aHJlYWRzcR5oHVgDAAAAcmFtcR9YAQAAADBxIHVYCQAAAG91dHB1dERpcnEhfXEi
+KGgcaB1oHmgdaB9oIHV1WA0AAABpdGVyYXRlZEF0dHJzcSNdcSQoaBpoIWV1WAUAAABtb2RlbHEl
+WBkAAAByMTA0MV9lODJfNDAwYnBzX2hhY192NDMwcSZYCAAAAG5Xb3JrZXJzcSdLAVgOAAAAb3B0
+aW9uc0NoZWNrZWRxKH1xKShYBwAAAGJlZEZpbGVxKolYBwAAAGN0Z05hbWVxK4lYCAAAAHNucE1p
+bkFmcSyJWAoAAABpbmRlbE1pbkFmcS2JdVgJAAAAb3V0cHV0RGlycS5OWAgAAABwbGF0Zm9ybXEv
+WAMAAABvbnRxMFgJAAAAcmVmZXJlbmNlcTFoBFgGAAAAcmVwZWF0cTKJWAoAAAByZXJpb01vZGVs
+cTOIWAcAAABydW5Nb2RlcTRLAlgLAAAAcnVuVHJpZ2dlcnNxNV1xNihYCQAAAHJlZmVyZW5jZXE3
+WAkAAABvdXRwdXREaXJxOGVYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxOUMyAdnQywACAAAAAALo
+AAAA6QAAB5EAAAN6AAAC6AAAAOkAAAeRAAADegAAAAAAAAAACgBxOlgIAAAAc25wTWluQWZxO2gE
+WAcAAAB0aHJlYWRzcTxLCFgMAAAAdHJpZ2dlclJlYWR5cT19cT4oaDeJaDiJdVgGAAAAdXNlR3B1
+cT+IWAwAAAB1c2VTY2hlZHVsZXJxQIlYCwAAAF9fdmVyc2lvbl9fcUFLAXUu
+</properties>
+		<properties format="pickle" node_id="15">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDgAAAGV4cG9ydEdyYXBoaWNzcQKJWAgA
+AABpbnB1dEJhbXEDTlgVAAAAaW5wdXRDb25uZWN0aW9uc1N0b3JlcQR9cQUoWAgAAABpbnB1dFJl
+ZnEGXXEHSwFhWAgAAABpbnB1dEJhbXEIXXEJSwVhWAkAAABvdXRwdXREaXJxCl1xC0sBYXVYCAAA
+AGlucHV0UmVmcQxYAAAAAHENWAcAAABpdGVyYXRlcQ6IWA8AAABpdGVyYXRlU2V0dGluZ3NxD31x
+EChYDQAAAGl0ZXJhYmxlQXR0cnNxEV1xEihYCAAAAGlucHV0QmFtcRNYCQAAAG91dHB1dERpcnEU
+ZVgEAAAAZGF0YXEVY2NvbGxlY3Rpb25zCk9yZGVyZWREaWN0CnEWKVJxFyhYCAAAAGlucHV0QmFt
+cRh9cRkoWAkAAABncm91cFNpemVxGlgBAAAAMXEbWAcAAAB0aHJlYWRzcRxoG1gDAAAAcmFtcR1Y
+AQAAADBxHnVYCQAAAG91dHB1dERpcnEffXEgKGgaaBtoHGgbaB1oHnV1WA0AAABpdGVyYXRlZEF0
+dHJzcSFdcSIoaBhoH2V1WAgAAABuV29ya2Vyc3EjSwFYDgAAAG9wdGlvbnNDaGVja2VkcSR9cSUo
+WAcAAAB0aHJlYWRzcSaJWAwAAABvdXRwdXRQcmVmaXhxJ4hYBgAAAHVzZUdQVXEoiXVYCQAAAG91
+dHB1dERpcnEpTlgMAAAAb3V0cHV0UHJlZml4cSpYBwAAAFBFUFBFUi1xK1gGAAAAcmVwZWF0cSyJ
+WAcAAABydW5Nb2RlcS1LAFgLAAAAcnVuVHJpZ2dlcnNxLl1xL1gTAAAAc2F2ZWRXaWRnZXRHZW9t
+ZXRyeXEwQzIB2dDLAAIAAAAAAmMAAABuAAAFnAAAA5AAAAJjAAAAbgAABZwAAAOQAAAAAAAAAAAI
+AHExWAcAAAB0aHJlYWRzcTJLAFgMAAAAdHJpZ2dlclJlYWR5cTN9cTRYBgAAAHVzZUdQVXE1iFgG
+AAAAdXNlR3B1cTaIWAwAAAB1c2VTY2hlZHVsZXJxN4lYCwAAAF9fdmVyc2lvbl9fcThLAXUu
+</properties>
+		<properties format="literal" node_id="16">{'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': [], 'nWorkers': 1}, 'nWorkers': 1, 'normalBam': '/data/tumornormalbamtests/HCC1395BL_normal_chr17_demo.bam', 'optionsChecked': {}, 'outputDir': '/data/tumornormalbamtests/vcfs_out_clairS', 'platform': 'ont_r10_guppy', 'reference': '/data/tumornormalbamtests/GRCh38_no_alt_chr17.fa', 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\xde\x00\x00\x01\x0c\x00\x00\x06 \x00\x00\x02\xf3\x00\x00\x01\xde\x00\x00\x01\x0c\x00\x00\x06 \x00\x00\x02\xf3\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00', 'threads': 8, 'triggerReady': {}, 'tumorBam': '/data/tumornormalbamtests/HCC1395_tumor_chr17_demo.bam', 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="17">{'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': [], 'nWorkers': 1}, 'nWorkers': 1, 'normalBam': '/data/tumornormalbamtests/HCC1395BL_normal_chr17_demo.bam', 'normalPrefix': '/data/tumornormalbamtests/normal_prefix', 'optionsChecked': {'processes': True}, 'processes': 4, 'reference': '/data/tumornormalbamtests/GRCh38_no_alt_chr17.fa', 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02T\x00\x00\x01\x07\x00\x00\x05\xab\x00\x00\x02\xf7\x00\x00\x02T\x00\x00\x01\x07\x00\x00\x05\xab\x00\x00\x02\xf7\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00', 'triggerReady': {}, 'tumorBam': '/data/tumornormalbamtests/HCC1395_tumor_chr17_demo.bam', 'tumorPrefix': '/data/tumornormalbamtests/tumor_prefix', 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="18">{'antitargetBed': '', 'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['tumorFile', 'normalFile'], 'nWorkers': 1}, 'nWorkers': 1, 'normalFile': ['/data/testfilesClairS/HCC1395BL_normal_chr17_demo.bam'], 'optionsChecked': {'targetBed': False, 'antitargetBed': False, 'outputDir': True}, 'outputDir': '/data/test/CNVkit_out', 'reference': '/data/nanopore-test/genome/GRCh38.primary_assembly.genome.fa', 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01}\x00\x00\x00\xdd\x00\x00\x06\x81\x00\x00\x03!\x00\x00\x01}\x00\x00\x00\xdd\x00\x00\x06\x81\x00\x00\x03!\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00', 'seqMethod': 'wgs', 'targetBed': '', 'triggerReady': {}, 'tumorFile': ['/data/testfilesClairS/HCC1395_tumor_chr17_demo.bam'], 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="19">{'controlAreaVisible': True, 'exportGraphics': False, 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': ['tumorBam', 'outputDir'], 'nWorkers': 1}, 'nWorkers': 1, 'optionsChecked': {}, 'outputDir': ['/data/nanopore-test/varcall-out/clairS'], 'platform': 'ont_r10_dorado_hac_4khz', 'reference': '/data/nanopore-test/genome/GRCh38.primary_assembly.genome.fa', 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02T\x00\x00\x01;\x00\x00\x05\xab\x00\x00\x02\xc3\x00\x00\x02T\x00\x00\x01;\x00\x00\x05\xab\x00\x00\x02\xc3\x00\x00\x00\x00\x00\x00\x00\x00\n\x00', 'threads': 8, 'triggerReady': {}, 'tumorBam': ['/data/nanopore-test/bam/20200210_FLT3DNA_MO/varcallbam.bam'], 'useGpu': True, 'useScheduler': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="20">{'RefGenome': '/data/nanopore-test/genome/GRCh38.primary_assembly.genome.fa', 'altcontigs': '', 'altdrop': 0.15, 'controlAreaVisible': True, 'exportGraphics': False, 'hpcminimizer': False, 'idxnoseq': False, 'indexfile': '/data/nanopore-test/genome/GRCh38.primary_assembly.genome.mmi', 'inputConnectionsStore': {}, 'iterate': False, 'iterateSettings': {'iterableAttrs': [], 'nWorkers': 1}, 'kmersize': 15, 'maxload': '', 'nWorkers': 1, 'optionsChecked': {'kmersize': False, 'windowsize': False, 'hpcminimizer': False, 'maxload': False, 'idxnoseq': False, 'altcontigs': False, 'altdrop': False, 'overwrite': False}, 'overwrite': False, 'repeat': False, 'runMode': 0, 'runTriggers': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x03\x92\x00\x00\x01\xac\x00\x00\x07u\x00\x00\x03|\x00\x00\x03\x92\x00\x00\x01\xac\x00\x00\x07u\x00\x00\x03|\x00\x00\x00\x00\x00\x00\x00\x00\n\x00', 'triggerReady': {}, 'useGpu': False, 'useScheduler': False, 'windowsize': 0, '__version__': 1}</properties>
+		<properties format="pickle" node_id="21">gAN9cQAoWAoAAABJbnB1dEZpbGVzcQFdcQJYEgAAAGNvbnRyb2xBcmVhVmlzaWJsZXEDiFgOAAAA
+ZXhwb3J0R3JhcGhpY3NxBIlYCQAAAGluZGV4ZmlsZXEFWAAAAABxBlgVAAAAaW5wdXRDb25uZWN0
+aW9uc1N0b3JlcQd9cQhYCQAAAGluZGV4ZmlsZXEJXXEKSxBhc1gHAAAAaXRlcmF0ZXELiFgPAAAA
+aXRlcmF0ZVNldHRpbmdzcQx9cQ0oWA0AAABpdGVyYWJsZUF0dHJzcQ5dcQ9YCgAAAElucHV0Rmls
+ZXNxEGFYCAAAAG5Xb3JrZXJzcRFLAVgEAAAAZGF0YXESY2NvbGxlY3Rpb25zCk9yZGVyZWREaWN0
+CnETKVJxFFgKAAAASW5wdXRGaWxlc3EVfXEWKFgJAAAAZ3JvdXBTaXplcRdYAQAAADFxGFgHAAAA
+dGhyZWFkc3EZaBhYAwAAAHJhbXEaWAEAAAAwcRt1c1gNAAAAaXRlcmF0ZWRBdHRyc3EcXXEdaBVh
+dVgIAAAAbldvcmtlcnNxHksBWA0AAABvcHRpb25hbGZsYWdzcR9YBAAAAC10IDhxIFgOAAAAb3B0
+aW9uc0NoZWNrZWRxIX1xIihYDQAAAG9wdGlvbmFsZmxhZ3NxI4hYCAAAAGttZXJzaXplcSSJWAoA
+AAB3aW5kb3dzaXplcSWJWAwAAABocGNtaW5pbWl6ZXJxJolYBwAAAG1heGxvYWRxJ4lYCAAAAGlk
+eG5vc2VxcSiJWAoAAABhbHRjb250aWdzcSmJWAcAAABhbHRkcm9wcSqJWAkAAABvdmVyd3JpdGVx
+K4l1WAkAAABvdXRwdXRkaXJxLFgXAAAAL2RhdGEvbmFub3BvcmUtdGVzdC9iYW1xLVgGAAAAcmVw
+ZWF0cS6JWAcAAABydW5Nb2RlcS9LAFgLAAAAcnVuVHJpZ2dlcnNxMF1xMVgTAAAAc2F2ZWRXaWRn
+ZXRHZW9tZXRyeXEyQzIB2dDLAAIAAAAAAgAAAAEIAAAJ/wAABQcAAAIAAAABIAAACf8AAAUEAAAA
+AAAAAAAKAHEzWAwAAAB0cmlnZ2VyUmVhZHlxNH1xNVgGAAAAdXNlR3B1cTaJWAwAAAB1c2VTY2hl
+ZHVsZXJxN4lYCwAAAF9fdmVyc2lvbl9fcThLAXUu
+</properties>
+	</node_properties>
+</scheme>
