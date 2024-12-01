@@ -3,7 +3,7 @@ A collection of ONT Nanopore workflows implemented using [BioDepot-workflow-buil
 
 ## Nanopore Dorado
 
-![dorado workflow](screenshots\wf_dorado.png)
+![dorado workflow](screenshots/wf_dorado.png)
 
 This workflow processes raw nanopore sequencing data Pod5 files using the [Dorado](https://github.com/nanoporetech/dorado) basecaller. It converts raw signal data into basecalled and aligned sequences.
 
@@ -15,7 +15,7 @@ This workflow processes raw nanopore sequencing data Pod5 files using the [Dorad
 
 ## Nanopore Dorado Fast5input
 
-![dorado workflow fast5input](screenshots\wf_dorado_fast5input.png)
+![dorado workflow fast5input](screenshots/wf_dorado_fast5input.png)
 
 This workflow processes Fast5 files using the [Dorado](https://github.com/nanoporetech/dorado) basecaller.
 
@@ -28,7 +28,7 @@ This workflow processes Fast5 files using the [Dorado](https://github.com/nanopo
 
 ## Nanopore Guppy
 
-![dorado workflow](screenshots\wf_guppy.png)
+![dorado workflow](screenshots/wf_guppy.png)
 
 This workflow processes raw nanopore sequencing data using the Guppy basecaller.
 
@@ -41,7 +41,7 @@ This workflow processes raw nanopore sequencing data using the Guppy basecaller.
 
 ## Nanopore Itd
 
-![dorado workflow](screenshots\wf_itd.png)
+![dorado workflow](screenshots/wf_itd.png)
 
 This workflow identifies and processes insertion, deletion, and tandem duplication (ITD) variants in nanopore sequencing data. The main variant caller used in this workflow is [SVIM](https://github.com/eldariont/svim).
 
@@ -53,7 +53,7 @@ This workflow identifies and processes insertion, deletion, and tandem duplicati
 
 ## Nanopore Variantcall
 
-![dorado workflow](screenshots\wf_variantcall.png)
+![dorado workflow](screenshots/wf_variantcall.png)
 
 This workflow performs variant calling on nanopore sequencing data using various variant callers:
 - [SVIM](https://github.com/eldariont/svim)
@@ -75,7 +75,7 @@ This workflow performs variant calling on nanopore sequencing data using various
 
 ## Nanopore Variantcall Barcoded Fastq
 
-![dorado workflow](screenshots\wf_variantcall_barcoded_fastq.png)
+![dorado workflow](screenshots/wf_variantcall_barcoded_fastq.png)
 
 This workflow is similar to [Nanopore Variantcall](#nanopore-variantcall), but it includes converstion of Fastq outputs from Dorado, or other sources, into aligned and sorted Bam file via MiniMap2.
 
